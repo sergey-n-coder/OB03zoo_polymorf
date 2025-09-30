@@ -9,7 +9,6 @@ class Animal:
     def __repr__(self):
         return f"{self.name}, {self.species}"
 
-
 class Zoo:
     def __init__(self):
         # Загружаем существующее состояние зоопарка

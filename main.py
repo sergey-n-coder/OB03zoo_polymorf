@@ -59,6 +59,7 @@ class Staff :
     def sleep (self):
         print ('сотрудник спит')
 
+
 class Veterinarian(Staff):
     def __init__(self,name,age,level):
         super().__init__(name,age)
